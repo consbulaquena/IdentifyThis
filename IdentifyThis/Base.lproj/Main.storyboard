@@ -32,6 +32,8 @@
                                     <constraint firstAttribute="height" constant="80" id="EYe-EY-bub"/>
                                 </constraints>
                                 <state key="normal" image="identify-160"/>
+                                <state key="selected" image="stop-1"/>
+                                <state key="highlighted" image="stop-1"/>
                                 <connections>
                                     <action selector="Identify_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S9j-87-vkZ"/>
                                 </connections>
@@ -70,5 +72,6 @@
     </scenes>
     <resources>
         <image name="identify-160" width="160" height="160"/>
+        <image name="stop-1" width="333" height="333"/>
     </resources>
 </document>

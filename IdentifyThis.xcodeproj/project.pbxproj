@@ -24,6 +24,7 @@
 		00D5D3FC2060179400B6DBF0 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00D5D3F22060179400B6DBF0 /* OpenSans-ExtraBoldItalic.ttf */; };
 		00D5D3FD2060179400B6DBF0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00D5D3F32060179400B6DBF0 /* OpenSans-Regular.ttf */; };
 		00D5D3FE2060179400B6DBF0 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00D5D3F42060179400B6DBF0 /* OpenSans-BoldItalic.ttf */; };
+		00D5D400206286D600B6DBF0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 00D5D3FF206286D600B6DBF0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		00D5D3F22060179400B6DBF0 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		00D5D3F32060179400B6DBF0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		00D5D3F42060179400B6DBF0 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		00D5D3FF206286D600B6DBF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				00D5D3C3205FAFBF00B6DBF0 /* Assets.xcassets */,
 				00D5D3C5205FAFBF00B6DBF0 /* LaunchScreen.storyboard */,
 				00D5D3C8205FAFBF00B6DBF0 /* Info.plist */,
+				00D5D3FF206286D600B6DBF0 /* README.md */,
 			);
 			path = IdentifyThis;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				00D5D3F62060179400B6DBF0 /* OpenSans-Light.ttf in Resources */,
 				00D5D3FE2060179400B6DBF0 /* OpenSans-BoldItalic.ttf in Resources */,
 				00D5D3F92060179400B6DBF0 /* OpenSans-LightItalic.ttf in Resources */,
+				00D5D400206286D600B6DBF0 /* README.md in Resources */,
 				00D5D3FC2060179400B6DBF0 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				00D5D3FD2060179400B6DBF0 /* OpenSans-Regular.ttf in Resources */,
 				00D5D3C2205FAFBF00B6DBF0 /* Main.storyboard in Resources */,

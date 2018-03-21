@@ -43,16 +43,39 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 
             
             identifyButtonOutlet.setImage(UIImage(named: "stop-1"), for: .normal)
+            startCapturing()
+            
         } else {
             identifyButtonOutlet.setImage(UIImage(named: "identify-160"), for: [])
+            stopCapturing()
             
-
-
+            
         }
         
-        }
+    }
+    func startCapturing() {
         
-}
+    }
     
+    func stopCapturing() {
+        
+    }
+    
+    func setUpCapture() {
+        
+        
+        captureSession.sessionPreset = .photo //live feed of camera
+        
+        let captureDevice = AVCaptureDevice.default(for: .video)
+        
+        guard let input = try? AVCaptureDeviceInput(device: captureDevice!) else { return }
+        
+        captureSession.addInput(input)
+        
+        let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
+        view.layer.addSublayer(previewLayer)
 
+    
+    }
 
+}

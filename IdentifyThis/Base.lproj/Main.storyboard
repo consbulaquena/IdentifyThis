@@ -32,6 +32,9 @@
                                     <constraint firstAttribute="height" constant="80" id="EYe-EY-bub"/>
                                 </constraints>
                                 <state key="normal" image="identify-160"/>
+                                <connections>
+                                    <action selector="Identify_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S9j-87-vkZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Object" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hl-VH-vyr">
                                 <rect key="frame" x="16" y="541" width="343" height="28"/>
@@ -39,7 +42,7 @@
                                     <constraint firstAttribute="height" constant="28" id="BQm-zd-FhI"/>
                                     <constraint firstAttribute="width" constant="343" id="c4Q-l6-Y4I"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -55,6 +58,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="identifyButtonOutlet" destination="JS7-mg-7Hx" id="ev5-zf-o74"/>
+                        <outlet property="objectLabel" destination="1hl-VH-vyr" id="WlY-iQ-3Fa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

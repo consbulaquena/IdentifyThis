@@ -6,7 +6,6 @@ Object recognition app with CoreML written in Swift
 
 ### Features
 <ul><li>Classifying Images with Vision and Core ML</li>
-<li>AV Kit</li>
 <li>Access to the iPhone's camera </li>
 
 </ul>

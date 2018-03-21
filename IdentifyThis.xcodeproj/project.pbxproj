@@ -99,6 +99,7 @@
 		00D5D3B0205FAFBE00B6DBF0 = {
 			isa = PBXGroup;
 			children = (
+				00D5D3FF206286D600B6DBF0 /* README.md */,
 				00D5D3BB205FAFBF00B6DBF0 /* IdentifyThis */,
 				00D5D3D0205FAFBF00B6DBF0 /* IdentifyThisTests */,
 				00D5D3DB205FAFBF00B6DBF0 /* IdentifyThisUITests */,
@@ -126,7 +127,6 @@
 				00D5D3C3205FAFBF00B6DBF0 /* Assets.xcassets */,
 				00D5D3C5205FAFBF00B6DBF0 /* LaunchScreen.storyboard */,
 				00D5D3C8205FAFBF00B6DBF0 /* Info.plist */,
-				00D5D3FF206286D600B6DBF0 /* README.md */,
 			);
 			path = IdentifyThis;
 			sourceTree = "<group>";

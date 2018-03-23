@@ -63,6 +63,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
     }
     
+    //setting capture session
     func setUpCapture() {
         
         
@@ -79,6 +80,13 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         view.layer.addSublayer(previewLayer)
         previewLayer.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.width - 80)
     
+        //out of camera
+        let dataOutput = AVCaptureVideoDataOutput()
+        dataOutput.setSampleBufferDelegate(self, queue: DispatchQueue(label: "videoQueue"))
+        
+        captureSession.addOutput(dataOutput)
+        
+        
     }
 
 }

@@ -53,6 +53,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         }
         
     }
+    
+    //start Capture Session
     func startCapturing() {
         
     }
@@ -68,13 +70,14 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
         let captureDevice = AVCaptureDevice.default(for: .video)
         
+        //use guard on 'call can throw' try, if error return
         guard let input = try? AVCaptureDeviceInput(device: captureDevice!) else { return }
         
         captureSession.addInput(input)
         
         let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
         view.layer.addSublayer(previewLayer)
-
+        previewLayer.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.width - 80)
     
     }
 

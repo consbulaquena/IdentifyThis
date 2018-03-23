@@ -27,7 +27,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         super.viewDidLoad()
 
     captureSession = AVCaptureSession()
-    
+    setUpCapture()
         
     }
 
@@ -56,6 +56,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     
     //start Capture Session
     func startCapturing() {
+        captureSession.startRunning()
         
     }
     

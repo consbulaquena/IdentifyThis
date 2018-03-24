@@ -120,18 +120,13 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
             DispatchQueue.main.async {
                 let confidence = String(format: "K %.2f", firstObservation.confidence * 100)
                 self.objectLabel.text = "\(firstObservation.identifier, confidence)%"
-                
-                
-                
-                
-                
-                
             }
-            
-            
-            
         }
+        //VNImageRequestHandler for single image
+        try? VNImageRequestHandler(cvPixelBuffer: cvPixelBuffer, options: [:]).perform([request])
+        
     }
+    
     
     
     

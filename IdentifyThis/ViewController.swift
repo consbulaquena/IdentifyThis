@@ -87,7 +87,21 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
         captureSession.addOutput(dataOutput)
         
+    }
+    
+    // MARK:  AVCaptureVideoDataOutputSampleBufferDelegate
+    
+    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
+    //  print ("captured frame", Date())
+        
+        let cvPixelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer)!
+   
+    //Set up Core Model to take info /get output what it thinks in picture - MobileNet
+        
+        guard let model = try? VNCoreMLModel(for: MobileNet().model) else { return }
         
     }
-
+    
+    
+    
 }

@@ -11,7 +11,7 @@ Some of the image detection are not accurate.
 
 ### Features
 <ul><li>Classifying Images with Vision and Core ML</li>
-<li>Used Apple's <a href="https://developer.apple.com/machine-learning">MobileNet</a> 1machine learning model for image classifier</li>
+<li>Used Apple's <a href="https://developer.apple.com/machine-learning">MobileNet</a> machine learning model for image classifier</li>
 <li>Access to iPhone's camera </li>
 <li>Deployment target: iOS 11.2+</li>
 <li>Supported devices: iPhone 5s, SE, 6, 6 Plus, 6s, 6s Plus, 7, 7 Plus, 8, 8 Plus, iPhone X </li>

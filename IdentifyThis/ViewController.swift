@@ -100,6 +100,37 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
         guard let model = try? VNCoreMLModel(for: MobileNet().model) else { return }
         
+        let request = VNCoreMLRequest(model: model) { (request, error) in
+            
+            if error != nil {
+                print("error \(error!.localizedDescription)")
+                return
+            }
+            
+            print("request \(request.results)")
+       
+            guard let result = request.results as? [VNClassificationObservation]
+            else { return }
+            
+            guard let firstObservation = result.first else {
+                return
+            }
+            
+            //for label
+            DispatchQueue.main.async {
+                let confidence = String(format: "K %.2f", firstObservation.confidence * 100)
+                self.objectLabel.text = "\(firstObservation.identifier, confidence)%"
+                
+                
+                
+                
+                
+                
+            }
+            
+            
+            
+        }
     }
     
     

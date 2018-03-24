@@ -107,7 +107,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
                 return
             }
             
-            print("request \(request.results)")
+//            print("request \(request.results)")
        
             guard let result = request.results as? [VNClassificationObservation]
             else { return }

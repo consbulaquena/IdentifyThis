@@ -4,6 +4,7 @@
 
 
 This is a native iOS Object recognition app, with text recognition using CoreML.
+
 Some of the image detection are not accurate.
 
 ![alt tag](https://user-images.githubusercontent.com/10540496/37869711-bcee681c-2ff7-11e8-8aa9-a6194ba7e33d.gif)

@@ -5,9 +5,9 @@
 
 This is a native iOS Object recognition app, with text recognition using CoreML.
 
-Some of the image detection are not accurate.
+Note: Some of the image detection are not accurate.
 
-![alt tag](https://user-images.githubusercontent.com/10540496/37869711-bcee681c-2ff7-11e8-8aa9-a6194ba7e33d.gif)
+![alt tag](https://user-images.githubusercontent.com/10540496/37870901-01aff382-3014-11e8-91f5-b64a7a6bef0d.gif)
 
 ### Features
 <ul><li>Classifying Images with Vision and Core ML</li>

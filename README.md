@@ -4,6 +4,7 @@
 
 
 This is a native iOS Object recognition app, with text recognition using CoreML.
+Use your camera to hover images and the app will identify what it is.
 
 Note: Some of the image detection are not accurate.
 
